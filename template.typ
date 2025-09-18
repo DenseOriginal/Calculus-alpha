@@ -43,4 +43,6 @@
 #let dydx = $dy dx$
 #let xy = $x y$
 #let yx = $y x$
+#let xx = $x x$
+#let yy = $y y$
 #let integralR = $attach(limits(integral.double), b: R)$

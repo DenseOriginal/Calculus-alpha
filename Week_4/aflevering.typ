@@ -1,5 +1,4 @@
-#import "../template.typ": dfrac
-#import "../template.typ": template
+#import "../template.typ": *
 #show: template.with(
   title: "Aflevering uge 4",
   date: "11/09/2025",
@@ -53,4 +52,18 @@ $
   x = & 4
 $
 
-Der må derfor være et ekstremum i punktet $(4, 5)$
+For at teste om det er et minimumspunkt skal vi bruge alle anden afledte funktioner
+$
+  L_xx = & 3 \
+  L_yy = & 2 \
+  L_xy = & 2 \
+$
+
+Ligning for diskriminanten
+$
+  D = & L_xx (x,y) * L_yy (x,y) - (L_xy (x,y))^2 \
+    = & 3 * 2 - 2^2 \
+    = & 2
+$
+
+Da D er positiv og $L_xx$ er positiv må $(4, 5)$ være et minimum
