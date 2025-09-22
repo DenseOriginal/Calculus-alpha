@@ -41,6 +41,7 @@ $ P(E|F) = (P(E inter F)) / P(F) $
 
 == Bayes sætning
 $ P(F|E) = (P(F) * P(E|F)) / (P(F) * P(E|F) + P(F') * P(E|F')) $
+$ P(F'|E) = (P(F') * P(E|F')) / (P(F') * P(E|F') + P(F) * P(E|F)) $
 
 == Stokastisk middelværdi
 $ E = mu = x_1 p_1 + x_2 p_2 + dots.h.c + x_n p_n $
