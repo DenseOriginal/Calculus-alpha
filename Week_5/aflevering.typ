@@ -1,6 +1,6 @@
 #import "../template.typ": *
 #show: template.with(
-  title: "Opgave 9.3.67",
+  title: "Opgave 9.5.67",
   date: "15/09/2025",
 )
 

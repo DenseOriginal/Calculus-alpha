@@ -45,4 +45,6 @@
 #let yx = $y x$
 #let xx = $x x$
 #let yy = $y y$
+#let var = $italic("Var")$
+#let Var = var
 #let integralR = $attach(limits(integral.double), b: R)$
