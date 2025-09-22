@@ -56,7 +56,7 @@ For at teste om det er et minimumspunkt skal vi bruge alle anden afledte funktio
 $
   L_xx = & 3 \
   L_yy = & 2 \
-  L_xy = & 2 \
+  L_xy = & -2 \
 $
 
 Ligning for diskriminanten
