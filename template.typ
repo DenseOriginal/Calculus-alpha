@@ -48,3 +48,5 @@
 #let var = $italic("Var")$
 #let Var = var
 #let integralR = $attach(limits(integral.double), b: R)$
+
+#let facit(content) = underline(offset: 4pt, underline(offset: 2pt, content));

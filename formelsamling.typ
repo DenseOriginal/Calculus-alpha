@@ -39,6 +39,13 @@ $ P(E union F) = P(F) + P(E) - P(E inter F) $
 == Betinget sandsynlighed givet
 $ P(E|F) = (P(E inter F)) / P(F) $
 
+== Omvendt hændelse
+$ P(E') = 1 - P(E) $
+
+== Omvendt givet hændelse
+Flipper altid første del af sandsynligheden
+$ P(E|F') = 1 - P(E'|F') $
+
 == Bayes sætning
 $ P(F|E) = (P(F) * P(E|F)) / (P(F) * P(E|F) + P(F') * P(E|F')) $
 $ P(F'|E) = (P(F') * P(E|F')) / (P(F') * P(E|F') + P(F) * P(E|F)) $
