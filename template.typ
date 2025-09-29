@@ -50,3 +50,4 @@
 #let integralR = $attach(limits(integral.double), b: R)$
 
 #let facit(content) = underline(offset: 4pt, underline(offset: 2pt, content));
+#let def(content) = underline(offset: 1pt, strong(content));
